@@ -139,3 +139,50 @@ footer{
     color: white;
     text-align: center;
 }
+
+/*
+    ==================
+    HABILIDADES
+    ==================
+*/
+
+
+
+.habilidad{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    transition: 0.3s;
+}
+
+.habilidad:hover{
+    background: black !important;
+}
+
+.habilidad span{
+    text-align: center;
+    color: white;
+    font-family: Josefin;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#HTML{background: #f16524}
+#CSS{background: #00a0e4}
+#JavaScript{background: #f7bc18}
+#PHP{background: #787cb4}
+#Python{background: #3775a9}
+#Bootstrap{background: #69419d}
+#Express{background: #363636}
+#Angular-7{background: #dc3135}
+#Node-js{background: #8cc03d}
+#AJAX{background: #09719f}
+#GraphQL{background: #e535ab}
+#MongoDB{background: #459c45}
+#MySQL{background: #e58f00}
+#Oracle{background: #f20101}
+#C{background: #0175c3}
