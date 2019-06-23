@@ -141,12 +141,21 @@ footer{
 }
 
 /*
-    ==================
-    HABILIDADES
-    ==================
+    ========
+    IMAGENES
+    ========
 */
 
+#foto-personal{
+    max-width: 200px;
+    border-radius: 20%;
+}
 
+/*
+    ===========
+    HABILIDADES
+    ===========
+*/
 
 .habilidad{
     margin: 10px;
