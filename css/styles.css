@@ -1,10 +1,10 @@
 @font-face{
-    src: url(../fonts/JosefinSans-SemiBold.ttf);
+    src: url(../fonts/JosefinSans-Light.ttf);
     font-family: Josefin;
 }
 
 @font-face{
-    src: url(../fonts/Nunito-Light.ttf);
+    src: url(../fonts/Nunito-Regular.ttf);
     font-family: Nunito;
 }
 
@@ -15,6 +15,8 @@
 }
 
 body{
+    font-family: Nunito;
+    font-size: large;
     background: #F5F5F5;
 }
 
@@ -149,6 +151,20 @@ footer{
 #foto-personal{
     max-width: 200px;
     border-radius: 20%;
+}
+
+/* 
+    =======
+    BOTONES
+    =======
+*/
+
+.btn-black{
+    background-color: #313131 !important;
+}
+
+.btn-black:hover{
+    background-color: #1a1a1a !important;
 }
 
 /*
